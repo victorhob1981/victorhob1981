@@ -15,8 +15,8 @@
 ## Alguns projetos
 
 - `ERP-LOJAESPORTES` – ERP acadêmico para gestão de uma loja de artigos esportivos (Java)
-- `trabalhofinalaed2` – Implementações de algoritmos e estruturas de dados em C
-- `web2` – Aplicação web simples em Java + HTML/CSS
+- `algoritmos-estruturas-dados-c-main` – Implementações de algoritmos e estruturas de dados em C
+- `projeto-extensao-ufrrj-java` – Aplicação web simples em Java + HTML/CSS
 
 ## Contato
 
