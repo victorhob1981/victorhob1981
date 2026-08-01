@@ -35,7 +35,7 @@ No estágio, atuo com **SQL Server** em ambiente produtivo — investigação de
       </p>
       <p>
         <a href="https://github.com/victorhobdev/football-analytics">Ver repositório</a>
-        · <a href="https://football-analytics-victor-hugos-projects-f5572824.vercel.app">Acessar plataforma</a>
+        · <a href="https://football.victorhob.me/">Acessar plataforma</a>
       </p>
     </td>
     <td width="50%">
