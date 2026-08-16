@@ -1,105 +1,36 @@
-# Olá, eu sou o Victor 👋
+# Victor Hugo de Oliveira 👋
 
-Sou estudante de **Sistemas de Informação na UFRRJ** e estagiário em **Administração de Banco de Dados (DBA)** na Tasken.
+Engenheiro de Dados Júnior em formação e estagiário de Administração de Banco de Dados (DBA) na Tasken.
 
-No estágio, atuo com **SQL Server** em ambiente produtivo — investigação de falhas, sustentação de procedures e rotinas de banco de dados. Nos projetos próprios, trabalho com **PostgreSQL**, pipelines de dados, APIs e automações.
+## Sobre
 
-- 🎓 **Sistemas de Informação — UFRRJ** (2022–2027)
-- 💼 **Estagiário em DBA — Tasken** 
-- 🧠 **Certificações:** CS50x (Harvard) | Advanced SQL (Kaggle)
-- 🧩 **Foco:** Banco de Dados, DBA, Engenharia de Dados, Backend e Automação
+Desenvolvo projetos práticos de Engenharia de Dados com PySpark, Spark SQL, Databricks, Delta Lake, Airflow, dbt e PostgreSQL. Na Tasken, apoio a sustentação de SQL Server e PostgreSQL em produção e homologação, com backup/recovery, SSIS/SSISDB, troubleshooting, performance, permissões e documentação.
 
----
+Curso Bacharelado em Sistemas de Informação na UFRRJ (2022–2027).
 
-## Projetos em Destaque
+## Stack principal
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>⚽ Football Analytics</h3>
-      <p>
-        Plataforma de dados e analytics de futebol para organização, tratamento
-        e exploração de dados históricos de competições, times, jogadores,
-        partidas e estatísticas.
-      </p>
-      <p>
-        O projeto reúne ingestão de dados, modelagem relacional, Data Warehouse,
-        APIs e uma interface web para análise e visualização dos dados.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      </p>
-      <p>
-        <a href="https://github.com/victorhobdev/football-analytics">Ver repositório</a>
-        · <a href="https://football.victorhob.me/">Acessar plataforma</a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3>📊 OpsPulse</h3>
-      <p>
-        Aplicação para cadastro, execução e acompanhamento de rotinas HTTP
-        agendadas, com autenticação, histórico de execuções e controle
-        operacional.
-      </p>
-      <p>
-        Trabalha com scheduler, autenticação JWT, persistência relacional,
-        execução automatizada e controle de concorrência para evitar execuções
-        duplicadas.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Azure_Functions-0062AD?style=flat-square&logo=microsoftazure&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      </p>
-      <p>
-        <a href="https://github.com/victorhobdev/opspulse">Ver repositório</a>
-        · <a href="https://opspulse-self.vercel.app/">Acessar aplicação</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🏪 ERP-LOJAESPORTES</h3>
-      <p>
-        Sistema desktop em Java para gerenciamento de uma loja de artigos
-        esportivos — estoque, PDV, financeiro e relatórios. Em uso real e
-        contínuo.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaFX-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-      </p>
-      <p>
-        <a href="https://github.com/victorhobdev/ERP-LOJAESPORTES">Ver repositório</a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3>🔧 ForgeDesk</h3>
-      <p>
-        Plataforma local-first de orquestração de tarefas com agentes autônomos,
-        gates de aprovação e fluxo de entrega governado. Projeto em
-        desenvolvimento ativo.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      </p>
-      <p>
-        <a href="https://github.com/victorhobdev/ForgeDesk">Ver repositório</a>
-      </p>
-    </td>
-  </tr>
-</table>
+- **Engenharia de Dados:** PySpark, Apache Spark, Spark SQL, Databricks, Delta Lake, Lakehouse
+- **Pipelines e qualidade:** Airflow, dbt, Great Expectations, reprocessamento, reconciliação e quality gates
+- **Bancos e desenvolvimento:** SQL Server, PostgreSQL, MySQL, Python, FastAPI, Git e Docker
 
----
+## Projetos em destaque
+
+- **RastroPúblico — Projeto pessoal:** Lakehouse em Databricks com camadas Bronze, Silver, Gold e Ops, Unity Catalog, Jobs, Asset Bundles, Delta Lake, quality gates e reprocessamento.
+- **Football Analytics — Projeto pessoal:** plataforma de dados esportivos com PostgreSQL, modelagem analítica, cargas incrementais, Airflow, dbt, FastAPI e Power BI.
+- **ERP-LOJAESPORTES — Projeto pessoal:** sistema em Java/JavaFX e MySQL com operações transacionais, estoque, vendas e financeiro.
+
+## Cursos e credenciais
+
+- Oracle AI Database Foundations Associate — Oracle (2026)
+- Microsoft Applied Skills: Migrate SQL Server workloads to Azure SQL Database — Microsoft (2026)
+- Databricks Fundamentals Accreditation — Databricks Academy (2026)
+- Azure Databricks Data Engineering — Pipeline Deployment & Operations — Microsoft Learn (2026)
+- Advanced SQL — Kaggle (2026)
+- Introduction to Linux (LFS101) — Linux Foundation (2026)
+- CS50x — Introduction to Computer Science — Harvard University (2026)
 
 ## Contato
 
-[![Email](https://img.shields.io/badge/victorhob23%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:victorhob23@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/victor--ho--barbosa-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/victor-ho-barbosa)
+- [LinkedIn](https://linkedin.com/in/victor-ho-barbosa)
+- [Email](mailto:victorhob23@gmail.com)
